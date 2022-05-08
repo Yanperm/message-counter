@@ -49,13 +49,13 @@
     <string name="str_sent_today">ข้อความที่ส่งวันนี้</string>
     <string name="str_cycle_start_date">วันที่เริ่มนับข้อความ</string>
 
-    <string name="str_pref_sent_message_count">Sent Message Count</string>
-    <string name="str_pref_cycle_start_desc">The start date for each cycle</string>
-    <string name="str_pref_message_limit">Message limit</string>
-    <string name="str_pref_message_limit_desc">Limit for messages that can be sent per cycle. Default is 100</string>
+    <string name="str_pref_sent_message_count">จำนวนข้อความที่ส่งออก</string>
+    <string name="str_pref_cycle_start_desc">วันที่เริ่มนับรอบข้อความ</string>
+    <string name="str_pref_message_limit">กำหนดจำนวนข้อความ</string>
+    <string name="str_pref_message_limit_desc">กำหนดจำนวนข้อความที่รับส่ง มาตรฐานคือ 100 ครั้ง</string>
 
     <!-- added for 2.2.7 -->
-    <string name="str_notify_on_limit">Notify on reaching limit</string>
+    <string name="str_notify_on_limit">แจ้งเตือนเมื่อครบ limit</string>
     <string name="str_current_cycle">รอบนับเดือนนี้</string>
     <string name="str_previous_cycle">รอบนับเดือนที่แล้ว</string>
 
@@ -90,7 +90,7 @@
     <string name="str_sent_this_year">ส่งแล้วปีนี้</string>
     <string name="str_pref_use_background_service">Use background service</string>
     <string name="str_pref_use_background_service_desc">A background service will be used to monitor sent messages</string>
-    <string name="str_enable_notify_on_limit">Notify on reaching SMS send limit</string>
+    <string name="str_enable_notify_on_limit">แจ้งเตือนเมื่อครบกำหนดของลิมิตที่ตั้งไว้</string>
     <string name="str_sms_limit_notification_title">SMS Limit Reached</string>
     <string name="str_sms_limit_notification_text">SMS limit reached for this cycle</string>
     <string name="str_contact_message_sent">Sent</string>
