@@ -20,7 +20,7 @@ allprojects {
         jcenter()
         google()
         maven {
-            url "http://dl.bintray.com/midhunhk/android-libraries"
+            url "https://repository.jboss.org/maven2"
         }
     }
 }

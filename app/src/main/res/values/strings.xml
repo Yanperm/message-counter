@@ -15,39 +15,39 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">Message Counter</string>
+    <string name="app_name">MPCrop SMS</string>
     <string name="app_version">Version 4.1.2</string>
-    <string name="app_code_name">(Xingtian)</string>
-    <string name="app_release_date">May 2019</string>
-    <string name="app_desc">Message Counter is an open source app that displays useful statistics about your SMS.</string>
+    <string name="app_code_name">(MPCorp)</string>
+    <string name="app_release_date">May 2022</string>
+    <string name="app_desc">แอพพลิเคชั่นสำหรับนับจำนวนข้อความจากธนาคาร</string>
     <string name="app_disclaim">Since this app uses Android standard SMS API, it may not produce correct statistics for all devices. Do not use the data displayed by the app as an accurate measure for SMS counts.</string>
     <string name="app_developer_info">Designed, developed at ae app labs</string>
 
     <string name="empty_text" translatable="false"/>
     <string name="str_zero" translatable="false">0</string>
 
-    <string name="empty_list">No messages found</string>
+    <string name="empty_list">ไม่พบข้อความ</string>
 
     <!-- Titles displayed in Bottom Navigation Menu -->
-    <string name="title_sent_list">List</string>
-    <string name="title_counter">Counter</string>
-    <string name="title_ignore">Ignore</string>
+    <string name="title_sent_list">รายการ</string>
+    <string name="title_counter">จำนวนข้อความ</string>
+    <string name="title_ignore">ไม่นับ</string>
 
     <!-- Menu Strings -->
-    <string name="menu_title_settings">Settings</string>
+    <string name="menu_title_settings">ตั้งค่า</string>
     <string name="menu_title_donate">Donate</string>
     <string name="menu_title_share">Share this app</string>
     <string name="menu_title_about">About</string>
     <string name="menu_title_license">License</string>
 
     <!-- Main texts -->
-    <string name="str_sent_this_week">Sent this Week</string>
+    <string name="str_sent_this_week">ส่งแล้วสัปดาห์นี้</string>
 
     <!-- added for 2.2.0 -->
-    <string name="str_messages_sent">Messages sent</string>
-    <string name="str_this_cycle">This cycle</string>
-    <string name="str_sent_today">Messages sent today</string>
-    <string name="str_cycle_start_date">Cycle start date</string>
+    <string name="str_messages_sent">ข้อความที่ส่ง</string>
+    <string name="str_this_cycle">รอบนับจำนวน</string>
+    <string name="str_sent_today">ข้อความที่ส่งวันนี้</string>
+    <string name="str_cycle_start_date">วันที่เริ่มนับข้อความ</string>
 
     <string name="str_pref_sent_message_count">Sent Message Count</string>
     <string name="str_pref_cycle_start_desc">The start date for each cycle</string>
@@ -56,13 +56,13 @@
 
     <!-- added for 2.2.7 -->
     <string name="str_notify_on_limit">Notify on reaching limit</string>
-    <string name="str_current_cycle">CURRENT CYCLE</string>
-    <string name="str_previous_cycle">PREVIOUS CYCLE</string>
+    <string name="str_current_cycle">รอบนับเดือนนี้</string>
+    <string name="str_previous_cycle">รอบนับเดือนที่แล้ว</string>
 
     <!-- added for 2.3.0 (widgets) -->
-    <string name="str_messages_sent_caps">MESSAGES SENT</string>
-    <string name="str_today">TODAY</string>
-    <string name="str_cycle">CYCLE</string>
+    <string name="str_messages_sent_caps">ข้อความที่ส่ง</string>
+    <string name="str_today">วันนี้</string>
+    <string name="str_cycle">รอบเดือน</string>
 
     <!-- added for 3.1.0 (donations) -->
     <string name="str_donate_title">Donate</string>
@@ -75,19 +75,19 @@
     <string name="str_donate_large">Large Donation</string>
 
     <!-- added for 3.3.0 -->
-    <string name="str_ignore_add_number">Add a Number</string>
-    <string name="str_ignore_add_to_ignore_list">Add To Ignore List</string>
-    <string name="str_ignore_btn_ignore">Ignore</string>
-    <string name="str_ignore_name">Name</string>
-    <string name="str_ignore_number">Number</string>
-    <string name="str_ignore_empty_list">Start by adding a number to ignore</string>
+    <string name="str_ignore_add_number">เพิ่มหมายเลข</string>
+    <string name="str_ignore_add_to_ignore_list">เพิ่มไปยังรายการไม่นับ</string>
+    <string name="str_ignore_btn_ignore">ไม่นับ</string>
+    <string name="str_ignore_name">ชื่อของเบอร์</string>
+    <string name="str_ignore_number">เบอร์โทร</string>
+    <string name="str_ignore_empty_list">เริ่มเพิ่มเบอร์โทรที่ไม่ต้องการนับ</string>
 
     <!-- v4.0.0 -->
     <string name="loading_list">Counting Messages</string>
-    <string name="str_require_permissions_title">Need permissions</string>
-    <string name="str_require_permissions_description">Message Counter requires permission for reading SMS and Contacts to function</string>
-    <string name="str_require_permissions_request_button">Request Permissions</string>
-    <string name="str_sent_this_year">Sent this Year</string>
+    <string name="str_require_permissions_title">ต้องการอนุมัติสิทธิ์</string>
+    <string name="str_require_permissions_description">การอ่านข้อความจำเป็นต้องได้รับอนุมัติสิทธิ์จากผู้ใช้งานระบบ</string>
+    <string name="str_require_permissions_request_button">ร้องขอ สิทธิ์ในการอ่านข้อความ</string>
+    <string name="str_sent_this_year">ส่งแล้วปีนี้</string>
     <string name="str_pref_use_background_service">Use background service</string>
     <string name="str_pref_use_background_service_desc">A background service will be used to monitor sent messages</string>
     <string name="str_enable_notify_on_limit">Notify on reaching SMS send limit</string>
